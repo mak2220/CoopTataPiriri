@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div>
+      <div className='flex flex-col h-screen'>
         <ReactRouter />
       </div>
       <Footer />
