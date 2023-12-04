@@ -18,14 +18,15 @@ const CotizationBanner = () => {
 
     return (
         <>
-            <section className='dolarBanner bg-slate-500'>
-                <ul className='row-money'>
+            <section className='dolar-box-container bg-slate-500 font-semibold'>
+                <ul className='grid grid-flow-col auto-cols-max banner'>
                     {
                         moneys.map((moneys, idx) => {
                             return <CotizationBannerInner moneysCotizations={moneys} key={idx} />
                         })
                     }
                 </ul>
+
             </section>
         </>
     )

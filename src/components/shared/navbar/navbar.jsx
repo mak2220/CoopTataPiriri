@@ -1,8 +1,7 @@
 import React from "react";
 import "./navbar.scss";
 import { items } from './items';
-import Logo from "./../../../assets/logo.png";
-import CotizationBanner from "../../services/cotizationBanner/cotizationBanner";
+
 
 const Navbar = () => {
 
@@ -33,7 +32,6 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-            <CotizationBanner />
         </>
     )
 }

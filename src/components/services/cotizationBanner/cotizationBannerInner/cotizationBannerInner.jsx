@@ -2,15 +2,20 @@ import React from 'react';
 import "./cotizationbannerinner.scss"
 
 const CotizationBannerInner = ({ moneysCotizations }) => {
-  return (
-    <>
-      <li>
-        <h6 className='uppercase'><i className="bi bi-cash"></i> {moneysCotizations.moneda} {moneysCotizations.casa}</h6>
-        <h6 className='uppercase'><i className="bi bi-bag-heart-fill"></i> Compra: $ {moneysCotizations.compra}</h6>
-        <h6 className='uppercase'><i className="bi bi-bag-fill"></i> Venta: $ {moneysCotizations.venta}</h6>
-      </li>
-    </>
-  )
+
+
+
+  if (moneysCotizations.nombre !== "Solidario") {
+    return (
+      <>
+        <li className='cotization dolar-item'>
+          <span className='uppercase dolar-name mr-5'><i className="bi bi-cash"></i> {moneysCotizations.moneda} {moneysCotizations.casa}</span>
+          <span className='uppercase mr-5'><i className="bi bi-bag-heart-fill"></i> Compra: $ {moneysCotizations.compra}</span>
+          <span className='uppercase mr-5'><i className="bi bi-bag-fill"></i> Venta: $ {moneysCotizations.venta}</span>
+        </li>
+      </>
+    )
+  }
 }
 
 export default CotizationBannerInner;

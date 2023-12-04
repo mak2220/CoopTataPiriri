@@ -1,12 +1,25 @@
-.cotizationBanner {
-    animation: scrollText 10s infinite linear;
+.dolar-item {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+    flex: 0 0 6%;
+    text-align: center;
+    color: whitesmoke !important;
+    font-size: 14px;
+    font-weight: bolder;
 }
 
-@keyframes scrollText {
-    from {
-        transform: translateX(100%);
+.dolar-name {
+    color: whitesmoke !important;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+@keyframes moveBanner {
+    0% {
+        transform: translateX(0);
     }
-    to {
+    100% {
         transform: translateX(-100%);
     }
 }
