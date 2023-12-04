@@ -1,0 +1,12 @@
+.cotizationBanner {
+    animation: scrollText 10s infinite linear;
+}
+
+@keyframes scrollText {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}

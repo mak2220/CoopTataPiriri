@@ -36,3 +36,11 @@ let getPesosUruguayos = async() => {
     let data = await url.json();
     return data;
 }
+
+export {
+    getDolarCotizations,
+    getPesosChilenos,
+    getPesosUruguayos,
+    getRealesCotizations,
+    getEuroCotizations
+}
