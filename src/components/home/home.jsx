@@ -1,11 +1,14 @@
 import React from 'react';
 import "./home.scss";
-import GridCards from './grid-cards/grid-cards';
+import Swiper from './swiper/swiper';
 
 const Home = () => {
     return (
         <>
-            
+            <Swiper />
+            <section className='container'>
+
+            </section>
         </>
     )
 }

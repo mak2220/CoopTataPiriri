@@ -3,7 +3,9 @@ import "./locationIp.scss";
 
 const locationIp = () => {
   return (
-    <div>locationIp</div>
+    <>
+    
+    </>
   )
 }
 

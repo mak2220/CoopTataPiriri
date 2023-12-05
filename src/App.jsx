@@ -8,17 +8,15 @@ import { getLocation } from './components/services/cotizationBanner/locationIp/l
 
 function App() {
 
-  useEffect(()=>{
+  useEffect(() => {
     console.log(getLocation())
-  },[])
+  }, [])
 
   return (
     <>
       <Navbar />
       <CotizationBanner />
-      <div className='flex flex-col h-screen'>
-        <ReactRouter />
-      </div>
+      <ReactRouter />
       <Footer />
     </>
   )

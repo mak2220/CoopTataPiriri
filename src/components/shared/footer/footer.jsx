@@ -7,7 +7,7 @@ const Footer = () => {
         <>
 
 
-            <footer className="bg-black lg:grid lg:grid-cols-5 bottom-0">
+            <footer className="bg-black lg:grid lg:grid-cols-5 bottom-00">
                 <div className="relative block h-32 lg:col-span-2 lg:h-full">
                     <Map />
                 </div>
@@ -41,7 +41,7 @@ const Footer = () => {
                                         href="/"
                                         rel="noreferrer"
                                         target="_blank"
-                                        className="text-white transition hover:opacity-75"
+                                        className="text-white transition"
                                     >
                                         <span className="sr-only">Facebook</span>
 
