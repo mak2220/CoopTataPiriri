@@ -9,11 +9,10 @@ import Clima from '../../services/clima/clima';
 const Footer = () => {
     return (
         <>
-            <footer className="bg-gray-900 lg:grid lg:grid-cols-5 bottom-00">
+            <section className="bg-gray-900 lg:grid lg:grid-cols-5">
                 <div className="relative block h-32 lg:col-span-2 lg:h-full">
                     <Map />
                 </div>
-
                 <div className="px-4 py-16 sm:px-6 lg:col-span-3 lg:px-8">
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
 
@@ -35,7 +34,7 @@ const Footer = () => {
                             </div>
 
                             <div>
-                                <p className="font-medium text-white text-lg"><i className="bi bi-thermometer"></i> Clima</p>
+                                <p className="font-medium text-white text-lg"><i className="bi bi-radar"></i> Tiempo:</p>
                                 <ul className="mt-6 space-y-4 text-sm">
                                     <Clima />
                                 </ul>
@@ -65,7 +64,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </footer>
+            </section>
         </>
     )
 }

@@ -1,8 +1,25 @@
-body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px !important;
-    color: #000;
-    margin: 0;
-    padding: 0;
-}
+    body {
+        margin: 0;
+    }
+    
+    main {
+        animation: mymove 60s infinite;
+        animation-delay: 6s;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes mymove {
+        0% {
+            background-image: url('./../src/assets/wallpaper1.jpg');
+        }
+        50% {
+            background-image: url('./../src/assets/wallpaper2.jpg');
+        }
+        51% {
+            background-image: url('./../src/assets/wallpaper3.jpg');
+        }
+        100% {
+            background-image: url('./../src/assets/wallpaper4.jpg');
+        }
+    }

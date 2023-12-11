@@ -18,7 +18,7 @@ const CotizationBanner = () => {
 
     return (
         <>
-            <section className='dolar-box-container bg-slate-500 font-semibold'>
+            <section className='dolar-box-container bg-gray-900 font-semibold'>
                 <ul className='grid grid-flow-col auto-cols-max banner'>
                     {
                         moneys.map((moneys, idx) => {

@@ -6,9 +6,6 @@ const Home = () => {
     return (
         <>
             <Swiper />
-            <section className='container'>
-
-            </section>
         </>
     )
 }
