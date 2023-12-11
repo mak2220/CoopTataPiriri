@@ -6,3 +6,11 @@ footer {
     bottom: 0 !important;
     padding: 0;
 }
+
+.isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+    pointer-events: none;
+}
