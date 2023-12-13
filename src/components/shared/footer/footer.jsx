@@ -5,6 +5,7 @@ import { items } from '../../items';
 import ItemMenu from "./itemMenu/itemMenu";
 import DetailsInfo from "./detailsInfo/detailsInfo";
 import Clima from '../../services/clima/clima';
+import BannerFooter from '../banner1/bannerFooter';
 
 const Footer = () => {
     return (
@@ -43,21 +44,7 @@ const Footer = () => {
                     </div>
 
                     <div className="mt-12 border-t border-gray-100 pt-12">
-                        <div className="sm:flex sm:items-center sm:justify-between">
-                            <ul className="flex flex-wrap gap-4 text-xs">
-                                <li>
-                                    <a href="#" className="text-white transition hover:opacity-75"> Términos y condiciones </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" className="text-white transition hover:opacity-75"> Pólitica de privacidad </a>
-                                </li>
-
-                                <li>
-                                    <a href="#" className="text-white transition hover:opacity-75"> Cookies </a>
-                                </li>
-                            </ul>
-
+                        <div className=" text-center">
                             <p className="mt-8 text-xs text-white sm:mt-0">
                                 &copy; 2023 Cooperativa Tatá Piriri Ltda. Todos los derechos reservados
                             </p>
@@ -65,6 +52,7 @@ const Footer = () => {
                     </div>
                 </div>
             </section>
+            <BannerFooter />
         </>
     )
 }
