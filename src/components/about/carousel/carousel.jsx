@@ -24,15 +24,17 @@ const Carousel = () => {
                     disableOnInteraction: false,
                 }}
             >
-                <SwiperSlide>
-                    <img src={Image1} alt='slide1' className='swiperSlide' />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Image2} alt='slide2' className='swiperSlide'/>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src={Image3} alt='slide3' className='swiperSlide'/>
-                </SwiperSlide>
+                <div className='swiper-container'>
+                    <SwiperSlide>
+                        <img src={Image1} alt='slide1' className='swiperSlide' />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={Image2} alt='slide2' className='swiperSlide' />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src={Image3} alt='slide3' className='swiperSlide' />
+                    </SwiperSlide>
+                </div>
             </Swiper>
         </>
     )

@@ -2,6 +2,7 @@ import './App.scss';
 import Navbar from './components/shared/navbar/navbar';
 import Footer from './components/shared/footer/footer';
 import ReactRouter from './config/react-router';
+import Bot from './components/shared/bot/bot';
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
         <main className=' bg-black text-white font-bold font-sans'>
           <ReactRouter />
         </main>
-        
+        <Bot />
         <footer>
           <Footer />
         </footer>
